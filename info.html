@@ -8,6 +8,9 @@
     <!-- Bootstrap -->
     <link href="bootstrap.min.css" rel="stylesheet">
     <script src="bootstrap.bundle.min.js"></script>
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="Styles.css">
+
 </head>
 
 <body>
@@ -35,22 +38,22 @@
         </div>
     </nav>
     <form action="thankyou.html" method="get">
-        <p>Enter</p>
-        <fieldset>
+        <fieldset class="mb-3"><p>Enter your Contact info here to be added to our Newsletter, get updates from Boots Fitness Club, and get called whenever new additions are made on the gym</p></fieldset>
+        <fieldset class="mb-3">
             <legend>Contact Info (Required)</legend>
-            <label for="Email">Email:</label>
-            <input required type="email" name="Email" id="email" placeholder="Enter your email"> <br>
-            <label for="Phone">Phone:</label>
-            <input required type="text" name="Phone" id="phone" placeholder="Enter your Phone Number">
+            <label class="form-label" for="Email">Email: </label>
+            <input class="form-control-lg" required type="email" name="Email" id="email" placeholder="Enter your email"> <br>
+            <label class="form-label" for="Phone">Phone:</label>
+            <input  class="form-control-lg" required type="text" name="Phone" id="phone" placeholder="Enter your Phone Number">
         </fieldset>
-        <fieldset>
+        <fieldset class="mb-3">
             <legend>Additional Info (Optional)</legend>
-        <label for="inqueries">Inqueries</label> <br>
-        <textarea name="inqueries" id="inqueries"
-            placeholder="Please type Any questions or Important info you have for us here!" cols="50"
-            rows="15"></textarea> <br>
-        <input id="submit" type="submit" value="SUBMIT">
-    </fieldset>
+            <label for="inqueries">Inqueries</label> <br>
+            <textarea name="inqueries" id="inqueries"
+                placeholder="Please type Any questions or Important info you have for us here!" cols="50"
+                rows="15"></textarea> <br>
+            <input id="submit" type="submit" value="SUBMIT">
+        </fieldset>
     </form>
     <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3177.325985232326!2d-93.28236262343265!3d37.216235672131425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87cf62dd87d6e81f%3A0x76db2ff4de702b77!2sOzarks%20Technical%20Community%20College!5e0!3m2!1sen!2sus!4v1732507854185!5m2!1sen!2sus"

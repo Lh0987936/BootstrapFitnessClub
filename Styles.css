@@ -1,0 +1,31 @@
+#CardHolder {
+    background-color: gray;
+    min-height: 400px;
+    display: grid;
+    gap:  5px;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50px 200px;
+    margin: 25px 0px 25px 0px;
+}
+.Carda {
+grid-row: 2/3;
+}
+.Cardb {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    padding-left: 5px;
+}
+.Cardc {
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+.Cardd {
+    grid-row: 2/3;
+    grid-column: 4/5;
+}
+#Cardstitle {
+grid-column: 1/2;
+}
+.carousel-control-prev {
+    top: 50px;
+}
