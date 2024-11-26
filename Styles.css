@@ -29,3 +29,10 @@ grid-column: 1/2;
 .carousel-control-prev {
     top: 50px;
 }
+.container-fluid {
+    background-color: rgb(255, 0, 0);
+}
+.results {
+    background-color: grey;
+    border: 2px black solid;
+}
